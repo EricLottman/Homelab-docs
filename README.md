@@ -8,18 +8,18 @@ IT homelab built to learn more about practical IT and to gather hands-on experie
 This repository is documentation for my personal IT Home Lab, that simulates a corperate enterprise IT enviroment in a small scale. It includes the following operating systems:\
 
 
-- **Windows Server 2022**
-- **Windows 10 Clients**
-- **Windows 11 Clients**
+- Windows Server 2022
+- Windows 10 Clients
+- Windows 11 Clients
 
 ---
 
-- Active Directory and Group Policy configuration
+- **Active Directory** and **Group Policy** configuration
 - Windows Server, Windows 10, and Windows 11 administration
 - Network setup, IP addressing, and connectivity testing
 - Documentation and portfolio organization
-- DHCP Configuration
-- WDS Configuration
+- **DHCP** Configuration
+- **WDS** Configuration
 
 ---
 
@@ -28,11 +28,13 @@ This repository is documentation for my personal IT Home Lab, that simulates a c
 ```text
 📂 homelab-docs
 ├─ 📄 README.md
+├─ 📂 architecture
+    └─ 📄 Network(DHCP).md
 ├─ 📂 group-policy
-│   └─ 📂 Compliance-GPO
+│   └─ 📂 compliance-GPO
 │       ├─ 📄 Company-Security-Policy.md
 │       └─ 📂 screenshots
-│   └─ 📂 Company-Standards-GPO
+│   └─ 📂 company-standards-GPO
 │       ├─ 📄 Wallpaper.md
 │       └─ 📂 screenshots
 └─ 📂 WDS
