@@ -1,0 +1,1 @@
+Due to hardware limitations, the install could try to start but not finish
