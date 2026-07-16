@@ -17,6 +17,8 @@ WDS is implemented to provide network based OS deployment through PXE boot
 *DHCP*: WinSvr2022-01
 *PXE Response*: Respond to all client computers
 
+---
+
 ### Boot Images
 
 | Image Name | Operating System | Purpose |
