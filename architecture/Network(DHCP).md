@@ -44,6 +44,6 @@ All virtual machines currently communicate within the same virtual network.
 
 | Type | Start | End |
 | :--- | :--- | :--- |
-| **pool** | 192.168.100.2 | 192.168.100.30 |
-| **exclusion** | 192.168.100.20 | 192.168.100.20 |
+| **Pool** | 192.168.100.2 | 192.168.100.30 |
+| **Xxclusion** | 192.168.100.20 | 192.168.100.20 |
 
