@@ -47,3 +47,7 @@ All virtual machines currently communicate within the same virtual network.
 | **Pool** | 192.168.100.2 | 192.168.100.30 |
 | **Xxclusion** | 192.168.100.20 | 192.168.100.20 |
 
+### IP Reservations
+| IP | Name | MAC |
+| 192.168.100.22 | WinSvr2022-01 | 00155D019801 |
+| 192.168.100.23 | WinSvr2022-02 | 00155D019805 |
