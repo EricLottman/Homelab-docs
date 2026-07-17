@@ -23,7 +23,7 @@ WDS is implemented to provide network based OS deployment through PXE boot
 
 | Image Name | Operating System | Purpose |
 | --- | --- | --- |
-| Win10Pro | Windows 10 Pro | Supports legacy applications, to be used where needed |
+| Win10Pro | Windows 10 Pro | Supports legacy applications, to be used where needed (due to hardware limitations, will be used as standard) |
 | Win11Pro | Windows 11 Pro | Default Operating System for Client (due to hardware limitations, very likely to be unused) |
 | WinSvr2022 | Windows Server 2022 | Server Operating System for general use |
 
