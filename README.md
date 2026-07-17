@@ -15,9 +15,10 @@ This repository is documentation for my personal IT Home Lab, that simulates a c
 ---
 
 - **Active Directory** and **Group Policy** configuration
-- Windows Server, Windows 10, and Windows 11 administration
+- Windows Server 2022, Windows 10, and Windows 11 administration
 - Network setup, IP addressing, and connectivity testing
 - Documentation and portfolio organization
+- **DNS** Configuration
 - **DHCP** Configuration
 - **WDS** Configuration
 
@@ -29,14 +30,20 @@ This repository is documentation for my personal IT Home Lab, that simulates a c
 📂 homelab-docs
 ├─ 📄 README.md
 ├─ 📂 architecture
-    └─ 📄 Network(DHCP).md
-├─ 📂 group-policy
-│   └─ 📂 compliance-GPO
-│       ├─ 📄 Company-Security-Policy.md
-│       └─ 📂 screenshots
-│   └─ 📂 company-standards-GPO
-│       ├─ 📄 Wallpaper.md
-│       └─ 📂 screenshots
+|   ├─ 📂 screenshots
+|   └─ 📄 Network(DHCP).md
+├─ 📂 active-directory
+|   ├─ 📄 configuration.md
+|   ├─ 📂 group-policy
+|   │   ├─ 📂 compliance-GPO
+|   │   |   ├─ 📄 Company-Security-Policy.md
+|   │   |   └─ 📂 screenshots
+|   │   └─ 📂 company-standards-GPO
+|   │       ├─ 📄 Wallpaper.md
+|   │       └─ 📂 screenshots
 └─ 📂 WDS
-    ├─ 📄 WDS-Docs.md
-    └─ 📂 screenshots
+    ├─ 📄 Windows Deployment Server.md
+    └─ 📂 Testing
+        ├─ 📂 Win 10
+        ├─ 📂 Win 11
+        └─ 📂 WinSvr2022
