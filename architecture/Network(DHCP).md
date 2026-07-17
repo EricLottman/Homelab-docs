@@ -11,9 +11,11 @@ The following is a representation of the logical structure of the network
 | Machine | Operating System | Role | IP Address | Services |
 |--------|-----------------|------|-----------|----------|
 | Host Machine | Windows Server 2022 | Virtualization Host | N/A | Hyper-V |
-| WinSvr2022-01 | Windows Server 2022 (desktop) | Domain Controller | 192.168.100.22 | Active Directory, DNS, DHCP |
-| WinSvr2022-02 | Windows Server 2022 (core) | Domain Controller | 192.168.100.23 | Active Directory, DNS, DHCP |
-| Win10-01 | Windows 10 Pro | Domain Controller | 192.168.126.10 | Active Directory, DNS, DHCP |
+| WinSvr2022-01 | Windows Server 2022 (desktop) | Domain Controller | 192.168.100.22 | Active Directory, DNS, DHCP(hot) |
+| WinSvr2022-02 | Windows Server 2022 (core) | Domain Controller | 192.168.100.23 | Active Directory, DNS, DHCP (standby) |
+| WinSvr2022-03 | Windows Server 2022 (core) | Domain Controller | 192.168.100.24 | Active Directory, DNS |
+| Win10-01 | Windows 10 Pro | Client | DHCP Assigned | Active Directory, DNS, DHCP |
+| 
 
 All virtual machines currently communicate within the same virtual network.
 
