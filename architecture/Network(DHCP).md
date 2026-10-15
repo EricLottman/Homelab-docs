@@ -26,7 +26,7 @@ All virtual machines currently communicate within the same virtual network.
 | Component | Configuration |
 |-----------|---------------|
 | Network | 192.168.100.0 |
-| Subnet | 255.255.255.224 (/24) |
+| Subnet | 255.255.255.224 (/27) |
 | Broadcast | 192.168.100.31 |
 | Gateway | 192.168.100.1 |
 | DNS Server | 192.168.100.22 |
@@ -47,7 +47,7 @@ All virtual machines currently communicate within the same virtual network.
 | Type | Start | End |
 | :--- | :--- | :--- |
 | **Pool** | 192.168.100.2 | 192.168.100.30 |
-| **Xxclusion** | 192.168.100.20 | 192.168.100.20 |
+| **Exclusion** | 192.168.100.20 | 192.168.100.20 |
 ---
 
 ### IP Reservations

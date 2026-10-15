@@ -1,6 +1,6 @@
 # Active Directory
 
-Below is overally AD DC configuration in which all servers are partnered all together.
+Below is overall AD DC configuration in which all servers are partnered together.
 
 ## Servers
 

@@ -5,7 +5,7 @@ IT homelab built to learn more about practical IT and to gather hands-on experie
 
 ## Overview
 
-This repository is documentation for my personal IT Home Lab, that simulates a corperate enterprise IT enviroment in a small scale. It includes the following operating systems:\
+This repository is documentation for my personal IT Home Lab, that simulates a corporate enterprise IT environment in a small scale. It includes the following operating systems:\
 
 
 - Windows Server 2022
