@@ -1,1 +1,24 @@
-IyBBY3RpdmUgRGlyZWN0b3J5CgoqUmV0aXJlZCBsYWIsIHByZXNlcnZlZCBhcyBidWlsdCDigJQgc2VlIHRoZSBSRUFETUUgc3RhdHVzIG5vdGUuKgoKQmVsb3cgaXMgb3ZlcmFsbCBBRCBEQyBjb25maWd1cmF0aW9uIGluIHdoaWNoIGFsbCBzZXJ2ZXJzIGFyZSBwYXJ0bmVyZWQgdG9nZXRoZXIuCgojIyBTZXJ2ZXJzCgp8IE5hbWUgfCBPUyB8IElQIHwgQ29udHJvbGxlciBUeXBlIHwgU2l0ZSB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKfCBXaW5TdnIyMDIyLTAxIHwgV2luZG93cyBTZXJ2ZXIgMjAyMiB8IDE5Mi4xNjguMTAwLjIyIHwgR2xvYmFsIENhdGFsb2cgfCBEZWZhdWx0LUZpcnN0LVNpdGUgfAp8IFdpblN2cjIwMjItMDIgfCBXaW5kb3dzIFNlcnZlciAyMDIyIENvcmUgfCAxOTIuMTY4LjEwMC4yMyB8IEdsb2JhbCBDYXRhbG9nIHwgRGVmYXVsdC1GaXJzdC1TaXRlIHwKfCBXaW5TdnIyMDIyLTAzIHwgV2luZG93cyBTZXJ2ZXIgMjAyMiBDb3JlIHwgMTkyLjE2OC4xMDAuMjQgfCBHbG9iYWwgQ2F0YWxvZyB8IERlZmF1bHQtRmlyc3QtU2l0ZSB8CgotLS0KCiMjIEZTTU8gQ29uZmlndXJhdGlvbgoKKlNjaGVtYSBNYXN0ZXIqOiBXaW5TdnIyMDIyLTAxCipEb21haW4gTmFtaW5nIE1hc3Rlcio6IFdpblN2cjIwMjItMDEKKlBEQyBFbXVsYXRvcio6IFdpblN2cjIwMjItMDIKKlJJRCBNYXN0ZXIqOiBXaW5TdnIyMDIyLTAzCipJbmZyYXN0cnVjdHVyZSBNYXN0ZXIqOiBXaW5TdnIyMDIyLTAzCgo=
+# Active Directory
+
+*Retired lab, preserved as built — see the README status note.*
+
+Below is overall AD DC configuration in which all servers are partnered together.
+
+## Servers
+
+| Name | OS | IP | Controller Type | Site |
+| --- | --- | --- | --- | --- |
+| WinSvr2022-01 | Windows Server 2022 | 192.168.100.22 | Global Catalog | Default-First-Site |
+| WinSvr2022-02 | Windows Server 2022 Core | 192.168.100.23 | Global Catalog | Default-First-Site |
+| WinSvr2022-03 | Windows Server 2022 Core | 192.168.100.24 | Global Catalog | Default-First-Site |
+
+---
+
+## FSMO Configuration
+
+*Schema Master*: WinSvr2022-01
+*Domain Naming Master*: WinSvr2022-01
+*PDC Emulator*: WinSvr2022-02
+*RID Master*: WinSvr2022-03
+*Infrastructure Master*: WinSvr2022-03
+

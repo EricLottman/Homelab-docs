@@ -1,1 +1,58 @@
-IyBOZXR3b3JrIEFyY2hpdGVjdHVyZQoKVGhlIHZpcnR1YWwgZW52aXJvbm1lbnQgc2ltdWxhdGVkIGEgc21hbGwgZW50ZXJwcmlzZSBuZXR3b3JrIHVzaW5nIEh5cGVyLVYsIGhvc3RlZCBpbiBQcm94bW94LiAoUmV0aXJlZCBsYWIsIHByZXNlcnZlZCBhcyBidWlsdCDigJQgc2VlIHRoZSBSRUFETUUgc3RhdHVzIG5vdGUuKQoKLS0tCgojIyBOZXR3b3JrIFRvcG9sb2d5CgpUaGUgZm9sbG93aW5nIGlzIGEgcmVwcmVzZW50YXRpb24gb2YgdGhlIGxvZ2ljYWwgc3RydWN0dXJlIG9mIHRoZSBuZXR3b3JrCgp8IE1hY2hpbmUgfCBPcGVyYXRpbmcgU3lzdGVtIHwgUm9sZSB8IElQIEFkZHJlc3MgfCBTZXJ2aWNlcyB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS0tLXwKfCBIb3N0IE1hY2hpbmUgfCBXaW5kb3dzIFNlcnZlciAyMDIyIHwgVmlydHVhbGl6YXRpb24gSG9zdCB8IE4vQSB8IEh5cGVyLVYgfAp8IFdpblN2cjIwMjItMDEgfCBXaW5kb3dzIFNlcnZlciAyMDIyIChkZXNrdG9wKSB8IERvbWFpbiBDb250cm9sbGVyIHwgMTkyLjE2OC4xMDAuMjIgfCBBY3RpdmUgRGlyZWN0b3J5LCBETlMsIERIQ1AoaG90KSwgV0RTIHwKfCBXaW5TdnIyMDIyLTAyIHwgV2luZG93cyBTZXJ2ZXIgMjAyMiAoY29yZSkgfCBEb21haW4gQ29udHJvbGxlciB8IDE5Mi4xNjguMTAwLjIzIHwgQWN0aXZlIERpcmVjdG9yeSwgRE5TLCBESENQIChzdGFuZGJ5KSB8CnwgV2luU3ZyMjAyMi0wMyB8IFdpbmRvd3MgU2VydmVyIDIwMjIgKGNvcmUpIHwgRG9tYWluIENvbnRyb2xsZXIgfCAxOTIuMTY4LjEwMC4yNCB8IEFjdGl2ZSBEaXJlY3RvcnksIEROUyB8CnwgV2luMTAtMDEgfCBXaW5kb3dzIDEwIFBybyB8IENsaWVudCB8IERIQ1AgQXNzaWduZWQgfCBDbGllbnQgKHVzZXMgQWN0aXZlIERpcmVjdG9yeSwgRE5TLCBESENQKSB8CnwgCgpBbGwgdmlydHVhbCBtYWNoaW5lcyBjb21tdW5pY2F0ZWQgd2l0aGluIHRoZSBzYW1lIHZpcnR1YWwgbmV0d29yay4KCi0tLQoKIyMgTmV0d29yayBDb25maWd1cmF0aW9uCgp8IENvbXBvbmVudCB8IENvbmZpZ3VyYXRpb24gfAp8LS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tfAp8IE5ldHdvcmsgfCAxOTIuMTY4LjEwMC4wIHwKfCBTdWJuZXQgfCAyNTUuMjU1LjI1NS4yMjQgKC8yNykgfAp8IEJyb2FkY2FzdCB8IDE5Mi4xNjguMTAwLjMxIHwKfCBHYXRld2F5IHwgMTkyLjE2OC4xMDAuMSB8CnwgRE5TIFNlcnZlciB8IDE5Mi4xNjguMTAwLjIyIHwKLS0tCgojIyBESENQIENvbmZpZ3VyYXRpb24KCiMjIyBTZXJ2ZXJzCgp8IE1hY2hpbmUgfCBCYWxhbmNpbmcgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tfAp8IFdpblN2cjIwMjItMDEgfCBIb3QgfAp8IFdpblN2cjIwMjItMDIgfCBTdGFuZGJ5IHwKLS0tCgojIyMgSVAgU2NvcGVzCgp8IFR5cGUgfCBTdGFydCB8IEVuZCB8CnwgOi0tLSB8IDotLS0gfCA6LS0tIHwKfCAqKlBvb2wqKiB8IDE5Mi4xNjguMTAwLjIgfCAxOTIuMTY4LjEwMC4zMCB8CnwgKipFeGNsdXNpb24qKiB8IDE5Mi4xNjguMTAwLjIwIHwgMTkyLjE2OC4xMDAuMjAgfAotLS0KCiMjIyBJUCBSZXNlcnZhdGlvbnMKfCBJUCB8IE5hbWUgfCBNQUMgfAp8IC0tLSB8IC0tLSB8IC0tLSB8CnwgMTkyLjE2OC4xMDAuMjIgfCBXaW5TdnIyMDIyLTAxIHwgMDAxNTVEMDE5ODAxIHwKfCAxOTIuMTY4LjEwMC4yMyB8IFdpblN2cjIwMjItMDIgfCAwMDE1NUQwMTk4MDUgfAotLS0K
+# Network Architecture
+
+The virtual environment simulated a small enterprise network using Hyper-V, hosted in Proxmox. (Retired lab, preserved as built — see the README status note.)
+
+---
+
+## Network Topology
+
+The following is a representation of the logical structure of the network
+
+| Machine | Operating System | Role | IP Address | Services |
+|--------|-----------------|------|-----------|----------|
+| Host Machine | Windows Server 2022 | Virtualization Host | N/A | Hyper-V |
+| WinSvr2022-01 | Windows Server 2022 (desktop) | Domain Controller | 192.168.100.22 | Active Directory, DNS, DHCP(hot), WDS |
+| WinSvr2022-02 | Windows Server 2022 (core) | Domain Controller | 192.168.100.23 | Active Directory, DNS, DHCP (standby) |
+| WinSvr2022-03 | Windows Server 2022 (core) | Domain Controller | 192.168.100.24 | Active Directory, DNS |
+| Win10-01 | Windows 10 Pro | Client | DHCP Assigned | Client (uses Active Directory, DNS, DHCP) |
+| 
+
+All virtual machines communicated within the same virtual network.
+
+---
+
+## Network Configuration
+
+| Component | Configuration |
+|-----------|---------------|
+| Network | 192.168.100.0 |
+| Subnet | 255.255.255.224 (/27) |
+| Broadcast | 192.168.100.31 |
+| Gateway | 192.168.100.1 |
+| DNS Server | 192.168.100.22 |
+---
+
+## DHCP Configuration
+
+### Servers
+
+| Machine | Balancing |
+|---------|-----------|
+| WinSvr2022-01 | Hot |
+| WinSvr2022-02 | Standby |
+---
+
+### IP Scopes
+
+| Type | Start | End |
+| :--- | :--- | :--- |
+| **Pool** | 192.168.100.2 | 192.168.100.30 |
+| **Exclusion** | 192.168.100.20 | 192.168.100.20 |
+---
+
+### IP Reservations
+| IP | Name | MAC |
+| --- | --- | --- |
+| 192.168.100.22 | WinSvr2022-01 | 00155D019801 |
+| 192.168.100.23 | WinSvr2022-02 | 00155D019805 |
+---
