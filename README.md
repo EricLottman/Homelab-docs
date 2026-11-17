@@ -9,6 +9,8 @@ This repository documented a study lab: a small-scale simulation of a generic co
 
 That lab has been shut down. The hardware it ran on has been repurposed to run functional production services instead, so these documents are preserved as the record of the lab as it was designed and built, not as a description of what the homelab runs today.
 
+**Where the hardware went:** it now runs a two-node production Proxmox cluster — real services, a production SaaS, dedicated backups, and day-to-day operations. The current overview lives in [Homelab](https://github.com/EricLottman/homelab).
+
 ---
 
 ## Overview
